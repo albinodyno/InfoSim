@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YMsV10c5n3/fyCZKTKQKeTj+EH+nZtrGtM91cmLwszhU13EGrkwf6LaIAMtkKx75xlkoxvYT+YqWW52UHZ+hgg==",
+  "dgSpecHash": "X+tHOMXVRL3uxfmE5VO7lUfmbbrzgkqwNWXXU2MDS/ILX6WHI7H9MJ9mizBiIhLInAZ/EiQ88K2YPESY7mIZUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jared.b.PF\\source\\AlbinoDyno\\InfoSim\\APICalls\\APICalls.csproj",
   "expectedPackageFiles": [
@@ -82,7 +82,7 @@
     "C:\\Users\\jared.b.PF\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\jared.b.PF\\.nuget\\packages\\microsoft.windows.compatibility\\3.1.0\\microsoft.windows.compatibility.3.1.0.nupkg.sha512",
     "C:\\Users\\jared.b.PF\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\jared.b.PF\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\jared.b.PF\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",

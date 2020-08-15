@@ -119,9 +119,9 @@ namespace CalendarQuickstart
         private static void DisplayEvents(EventModel tmpCal)
         {
             if (tmpCal.allDay)
-                Console.WriteLine($"{tmpCal.startDate.Date} - {tmpCal.endDate.Date} : {tmpCal.summary}");
+                Console.WriteLine($"{tmpCal.startDate.Date.ToShortDateString()} - {tmpCal.endDate.Date.ToShortDateString()} : {tmpCal.summary}");
             else
-                Console.WriteLine($"{tmpCal.startDate.Date}: {tmpCal.startTime} - {tmpCal.endTime} : {tmpCal.summary}");
+                Console.WriteLine($"{tmpCal.startDate.Date.ToShortDateString()}: {tmpCal.startTime} - {tmpCal.endTime} : {tmpCal.summary}");
 
         }
 
@@ -165,12 +165,12 @@ namespace CalendarQuickstart
                     {
                         if (e.allDay)
                         {
-                            cmd.Parameters.AddWithValue("@Description", $"{e.startDate} - {e.endDate} : {e.summary}");
+                            cmd.Parameters.AddWithValue("@Description", $"{e.startDate.Date.ToShortDateString()} - {e.endDate.Date.ToShortDateString()} : {e.summary}");
                             cmd.Parameters.AddWithValue("@StartDate", e.startDate);
                         }
                         else
                         {
-                            cmd.Parameters.AddWithValue("@Description", $"{e.startTime} - {e.endTime} : {e.summary}");
+                            cmd.Parameters.AddWithValue("@Description", $"{e.startDate.Date.ToShortDateString()}: {e.startTime} - {e.endTime} : {e.summary}");
                             cmd.Parameters.AddWithValue("@StartDate", e.startTime);
                         }
 

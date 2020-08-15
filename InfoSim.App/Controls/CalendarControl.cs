@@ -23,7 +23,7 @@ namespace InfoSim.App.Controls
 {
     class CalendarControl
     {
-        private static string sqlConn = @"Server=tcp:WAMPA,49172\SQLEXPRESS;Database=GarMonDB;Trusted_Connection=True;User Id=albinodyno;Password=thelivingshitouttame";
+        private static string sqlConn = @"Server=tcp:WAMPA,49172\SQLEXPRESS;Database=BarringtonDB;Trusted_Connection=True;User Id=albinodyno;Password=thelivingshitouttame";
         static List<EventModel> calItems = new List<EventModel>();
 
         public static List<EventModel> GetCalItems()
