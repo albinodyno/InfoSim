@@ -1,0 +1,11 @@
+{
+  "lat": "33.415",
+  "lon": "-111.831",
+  "timezone": "-7",
+
+  "wkey1": "api.openweathermap.org/data/2.5/weather?lat=",
+  "wkey2": "&lon=",
+  "wkey3": "&APPID=06b17b09ac87c3171e32b7402528d22b",
+
+  "ckey": "AIzaSyAG7WA7gOT_C64HW3MbRK5Fp8d78Ge19Ic"
+}
