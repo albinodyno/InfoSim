@@ -13,7 +13,6 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Calendar.Test;
 using System.Data.SqlClient;
-using System.Linq.Expressions;
 
 namespace CalendarQuickstart
 {
@@ -111,7 +110,7 @@ namespace CalendarQuickstart
             //}
             
             //For prod
-            LogEvents();
+            //LogEvents();
 
             //To test
             Console.ReadLine();
@@ -164,11 +163,10 @@ namespace CalendarQuickstart
 
                     foreach(EventModel e in calItems)
                     {
-                        cmd.Parameters.Clear();
                         if (e.allDay)
                         {
                             cmd.Parameters.AddWithValue("@Description", $"{e.startDate.Date.ToShortDateString()} - {e.endDate.Date.ToShortDateString()} : {e.summary}");
-                            cmd.Parameters.AddWithValue("@StartDate", e.startDate.Date);
+                            cmd.Parameters.AddWithValue("@StartDate", e.startDate);
                         }
                         else
                         {
@@ -178,10 +176,7 @@ namespace CalendarQuickstart
 
                         cmd.Parameters.AddWithValue("@EventID", e.id);
 
-                        try { int i = cmd.ExecuteNonQuery(); }
-                        catch(Exception ex) {  }
-
-                        
+                        int i = cmd.ExecuteNonQuery();
                     }
 
                     connection.Close();
