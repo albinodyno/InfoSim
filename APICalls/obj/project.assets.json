@@ -9968,28 +9968,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jared.b.PF\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\WAMPA\\.nuget\\packages\\": {},
+    "F:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jared.b.PF\\source\\AlbinoDyno\\InfoSim\\APICalls\\APICalls.csproj",
+      "projectUniqueName": "F:\\VSP\\InfoSim\\APICalls\\APICalls.csproj",
       "projectName": "APICalls",
-      "projectPath": "C:\\Users\\jared.b.PF\\source\\AlbinoDyno\\InfoSim\\APICalls\\APICalls.csproj",
-      "packagesPath": "C:\\Users\\jared.b.PF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jared.b.PF\\source\\AlbinoDyno\\InfoSim\\APICalls\\obj\\",
+      "projectPath": "F:\\VSP\\InfoSim\\APICalls\\APICalls.csproj",
+      "packagesPath": "C:\\Users\\WAMPA\\.nuget\\packages\\",
+      "outputPath": "F:\\VSP\\InfoSim\\APICalls\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "F:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jared.b.PF\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 19.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+        "C:\\Users\\WAMPA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -9997,12 +9992,7 @@
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 18.2\\DevExtreme\\System\\DevExtreme\\Bin\\AspNetCore": {},
-        "C:\\Program Files (x86)\\DevExpress 19.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
-        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://supporttools.phxform.com:9000/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
