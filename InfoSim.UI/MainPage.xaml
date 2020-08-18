@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="InfoSim.UI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InfoSim.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationForegroundThemeBrush}">
+
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".5*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!--Clock-->
+        <StackPanel Grid.Row="1" Grid.Column="0" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+            <TextBlock Name="txbClock" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                   Text="TIME" FontSize="76" Foreground="DarkCyan" />
+            <TextBlock Name="txbDate" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Text="DATE" FontSize="42" Foreground="DarkCyan" />
+        </StackPanel>
+
+        <!--Weather-->
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.RowSpan="2">
+            <StackPanel Orientation="Horizontal">
+                <StackPanel>
+                    <TextBlock Name="tbxLocation" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkGoldenrod" FontSize="48" Text="Location" Padding="10" Margin="10"/>
+                    <TextBlock Name="tbxTemp" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkCyan" FontSize="40" Text="Temp" Padding="10" Margin="10"/>
+                    <TextBlock Name="tbxHigh" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkCyan" FontSize="20" Text="Temp" Padding="10" Margin="10"/>
+                    <TextBlock Name="tbxLow" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkCyan" FontSize="20" Text="Temp" Padding="10" Margin="10"/>
+                </StackPanel>
+                <StackPanel>
+                    
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <!--Garmon-->
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkGoldenrod" FontSize="48" Text="GarMon" Padding="10"></TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkCyan" FontSize="30" Text="Status : " Padding="10"/>
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkCyan" FontSize="30" Text="STATUS" Padding="10" Name="txbGStatus" />
+            </StackPanel>
+        </StackPanel>
+
+        <!--Calendar-->
+        <StackPanel Grid.Row="2" Grid.Column="1" Grid.RowSpan="2">
+            <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="DarkGoldenrod" FontSize="48" Text="Calendar" Padding="10"/>
+            <ListView Name="lsvEvents" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Padding="10"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>

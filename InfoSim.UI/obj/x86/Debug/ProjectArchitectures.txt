@@ -1,0 +1,1 @@
+F:\VSP\InfoSim\InfoSim.UI\InfoSim.UI.csproj;x86

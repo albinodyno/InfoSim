@@ -32048,9 +32048,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\VSP\\InfoSim\\InfoSim.App\\InfoSim.App.csproj",
-      "projectName": "InfoSim.App",
-      "projectPath": "F:\\VSP\\InfoSim\\InfoSim.App\\InfoSim.App.csproj",
+      "projectUniqueName": "F:\\VSP\\InfoSim\\InfoSim.App\\InfoSim.App.OLD.csproj",
+      "projectName": "InfoSim.App.OLD",
+      "projectPath": "F:\\VSP\\InfoSim\\InfoSim.App\\InfoSim.App.OLD.csproj",
       "packagesPath": "C:\\Users\\WAMPA\\.nuget\\packages\\",
       "outputPath": "F:\\VSP\\InfoSim\\InfoSim.App\\obj\\",
       "projectStyle": "PackageReference",
