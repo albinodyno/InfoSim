@@ -44,6 +44,8 @@ namespace InfoSim
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += TimerTick;
 
+            SetupControl.SetupSqlConn();
+
             GetWeather();
             GetGarMon();
 

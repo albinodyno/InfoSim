@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoSim.App", "InfoSim.App\InfoSim.App.csproj", "{4928B65A-1B6D-4733-ABD1-64551BCB7B4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfoSim.App.OLD", "InfoSim.App\InfoSim.App.OLD.csproj", "{4928B65A-1B6D-4733-ABD1-64551BCB7B4B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarApp", "Calendar.Test\CalendarApp.csproj", "{881D6216-9A70-42DC-9EB6-A1629FF8E9E8}"
 EndProject
